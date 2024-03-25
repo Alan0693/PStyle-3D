@@ -26,7 +26,7 @@ conda env create -f ./environment/pstyle_3D_env.yaml
 
 ## (1) Pretrained Models
 Pretrained models for the four style domains can be downloaded from Google Drive:
-- [Pixar](https://drive.google.com/drive/folders/1k5GZ1KJKdOawo17dxs7LliEkEfZdWnYj?usp=sharing)
-- [Arance](https://drive.google.com/drive/folders/13zsLXKg5AjdK-cOVzOUsvsAEjP7j7zdx?usp=sharing)
-- [Caricature](https://drive.google.com/drive/folders/1T0ioMAoft7xJH5yYuGTjYVFbbMbmCemL?usp=sharing)
-- [Illustration](https://drive.google.com/drive/folders/1T0ioMAoft7xJH5yYuGTjYVFbbMbmCemL?usp=sharing)
+- [Pixar](https://drive.google.com/drive/folders/1rDaA4f1q6FwPL1BRyGX_DNdVv0HufcWj?usp=drive_link)
+- [Arance](https://drive.google.com/drive/folders/134TDQa0grxFcOoMTAzx_VJ57DEY011mM?usp=drive_link)
+- [Caricature](https://drive.google.com/drive/folders/1koBgcFevlk4Yj0DvXbb82kTkZjldSII7?usp=drive_link)
+- [Illustration](https://drive.google.com/drive/folders/1zP2WqyUMBTwWXZlUwTqejHoBBZ_a8Oag?usp=drive_link)

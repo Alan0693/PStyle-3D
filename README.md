@@ -36,8 +36,8 @@ Pretrained models for the four style domains can be downloaded from Google Drive
 ## (2) Datasets
 To accomplish the portrait style domain adaptation task, we use a natural face dataset as the source domain and some artistic portrait datasets as the target style domain.
 - Natural face dataset: Flickr-Faces-HQ ([FFHQ](https://github.com/NVlabs/ffhq-dataset)). It containing 70,000 high-quality face images.
-- Artistic portrait datasets: Pixar, Caricature, Arance, and Illustration. [Dowanload](https://drive.google.com/drive/folders/134x55-4jC2dHH4Q5rBJN_T4zlB47HRBW?usp=drive_link) Each style dataset contains approximately 2,000 high-quality art portraits, crawled from art portrait production websites or generated using high-performance 2D generative models.
-- Data preprocessing: Our model data is processed in the same way as [EG3D](https://github.com/NVlabs/eg3d).
+- Artistic portrait datasets: Pixar, Caricature, Arance, and Illustration. Each style dataset contains approximately 2,000 high-quality art portraits, crawled from art portrait production websites or generated using high-performance 2D generative models.
+- Data preprocessing: Our model data is processed in the same way as [EG3D](https://github.com/NVlabs/eg3d). [Dowanload](https://drive.google.com/drive/folders/134x55-4jC2dHH4Q5rBJN_T4zlB47HRBW?usp=drive_link)
 
 ## (3) Resource consumption
 - Training phase: For each target style domain, our model is trained on a single NVIDIA RTX 8000 GPU with 40GB of memory, requiring approximately 6 hours of training.

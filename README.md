@@ -32,3 +32,7 @@ Pretrained models for the four style domains can be downloaded from Google Drive
 - [Arance](https://drive.google.com/drive/folders/134TDQa0grxFcOoMTAzx_VJ57DEY011mM?usp=drive_link)
 - [Caricature](https://drive.google.com/drive/folders/1koBgcFevlk4Yj0DvXbb82kTkZjldSII7?usp=drive_link)
 - [Illustration](https://drive.google.com/drive/folders/1zP2WqyUMBTwWXZlUwTqejHoBBZ_a8Oag?usp=drive_link)
+
+## (2) Datasets
+To accomplish the portrait style domain adaptation task, we use a natural face dataset as the source domain and some artistic portrait datasets as the target style domain.
+- Natural face dataset: Flickr-Faces-HQ（[FFHQ](https://github.com/NVlabs/ffhq-dataset)). It containing 70,000 high-quality face images.

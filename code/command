@@ -26,4 +26,10 @@ python gen_videos_from_pti_latent_code.py --outdir=out --trunc=0.7 --sample_mult
 python gen_videos_from_given_latent_code.py --outdir=out --trunc=0.7 --npy_path ./projector_out/00602_w_plus/00602_w_plus.npy   --network=./projector/PTI/checkpoints/model_DLEVPISAQFRW_00586_w_plus.pth --sample_mult=2
 
 
-python train.py --outdir=~/training-runs --cfg=ffhq --data=~/datasets/FFHQ_512.zip  --resume=~/training-runs/ffhq_experiment_dir/network-snapshot-025000.pkl --gpus=8 --batch=32 --gamma=1 --gen_pose_cond=True --neural_rendering_resolution_final=128 --dry-run
+# train
+cd ./code/projector/PTI
+python run_pti.py
+
+# test
+python gen_style_sample.py
+python gen_videos.py
